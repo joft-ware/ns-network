@@ -54,6 +54,5 @@ main(int argc, char*argv[])
 	Simulator::Run();
 	Simulator::Stop(Seconds(11.0));
 	Simulator::Destroy();
-
 	return 0;
 }
