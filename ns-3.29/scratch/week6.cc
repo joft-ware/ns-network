@@ -107,11 +107,11 @@ main (int argc, char *argv[])
 /* ToDo: Implement UDP application
 	 Hint: Refer to the TCP app implementation procedure above 
 	 Warning: UDP app turns on and off every 1s and use variable "udpRate" for DataRate */
-	OnOffHelper onoffUdp(...);
-	onoffUdp.SetAttribute(...);
-	onoffUdp.SetAttribute(...);
-	onoffUdp.SetAttribute(...);
-	ApplicationContainer sourceAppUdp = onoffUdp.Install(...);
+	OnOffHelper onoffUdp("ns3::UdpSocketFactory", sinkAddressUdp);
+	onoffUdp.SetAttribute("OnTime", StringValue("ns3::ConstantRandomVariable[Constant=1]"));
+	onoffUdp.SetAttribute("OffTime", StringValue("ns3::ConstantRandomVariable[Constant=1]"));
+	onoffUdp.SetAttribute("DataRate", DataRateValue(udpRate));    
+	ApplicationContainer sourceAppUdp = onoffUdp.Install(nSrc2);
 	sourceAppUdp.Start (Seconds (1.));
 	sourceAppUdp.Stop (Seconds (30.));
 //==========================================================================================
@@ -119,7 +119,5 @@ main (int argc, char *argv[])
   Simulator::Stop (Seconds (30));
   Simulator::Run ();
   Simulator::Destroy ();
-
-
 
 }
