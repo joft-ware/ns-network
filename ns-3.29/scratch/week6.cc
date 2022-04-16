@@ -97,8 +97,8 @@ main (int argc, char *argv[])
 //==========================================================================================
 /* ToDo: Connect the trace source and the trace sink
 	 Hint: Refer to week6_ex4.cc */
-  Ptr<Socket> ns3TcpSocket = Socket::CreateSocket (...);
-  ns3TcpSocket->TraceConnectWithoutContext (...);
+  Ptr<Socket> ns3TcpSocket = Socket::CreateSocket(nSrc1, TcpSocketFactory::GetTypeId());
+  ns3TcpSocket->TraceConnectWithoutContext ("CongestionWindow", MakeCallback(&CwndChange));
   nSrc1->GetApplication (0)->GetObject<OnOffApplication> ()->SetSocket (ns3TcpSocket);
 //==========================================================================================
 
