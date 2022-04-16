@@ -9849,7 +9849,7 @@ PyTypeObject PyNs3WifiHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiHelper(arg0)\nWifiHelper()",                        /* Documentation string */
     (traverseproc)PyNs3WifiHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiHelper__tp_clear,             /* tp_clear */
@@ -10231,7 +10231,7 @@ PyTypeObject PyNs3WifiMacHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiMacHelper(arg0)\nWifiMacHelper()",                        /* Documentation string */
     (traverseproc)PyNs3WifiMacHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiMacHelper__tp_clear,             /* tp_clear */
@@ -12487,7 +12487,7 @@ PyTypeObject PyNs3WifiPhyHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiPhyHelper(arg0)\nWifiPhyHelper()",                        /* Documentation string */
     (traverseproc)PyNs3WifiPhyHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiPhyHelper__tp_clear,             /* tp_clear */
@@ -13310,7 +13310,7 @@ PyTypeObject PyNs3WifiPhyListener_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiPhyListener(arg0)\nWifiPhyListener()",                        /* Documentation string */
     (traverseproc)PyNs3WifiPhyListener__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiPhyListener__tp_clear,             /* tp_clear */
@@ -13684,7 +13684,7 @@ PyTypeObject PyNs3WifiPhyTag_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiPhyTag(txVector, mpdutype, frameComplete)\nWifiPhyTag(arg0)\nWifiPhyTag()",                        /* Documentation string */
     (traverseproc)PyNs3WifiPhyTag__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiPhyTag__tp_clear,             /* tp_clear */
@@ -14148,7 +14148,7 @@ PyTypeObject PyNs3WifiRadioEnergyModelHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiRadioEnergyModelHelper(arg0)\nWifiRadioEnergyModelHelper()",                        /* Documentation string */
     (traverseproc)PyNs3WifiRadioEnergyModelHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiRadioEnergyModelHelper__tp_clear,             /* tp_clear */
@@ -15054,7 +15054,7 @@ PyTypeObject PyNs3WifiRadioEnergyModelPhyListener_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiRadioEnergyModelPhyListener(arg0)\nWifiRadioEnergyModelPhyListener()",                        /* Documentation string */
     (traverseproc)PyNs3WifiRadioEnergyModelPhyListener__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiRadioEnergyModelPhyListener__tp_clear,             /* tp_clear */
@@ -18513,7 +18513,7 @@ PyTypeObject PyNs3YansWifiPhyHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "YansWifiPhyHelper(arg0)\nYansWifiPhyHelper()",                        /* Documentation string */
     (traverseproc)PyNs3YansWifiPhyHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3YansWifiPhyHelper__tp_clear,             /* tp_clear */
@@ -18874,7 +18874,7 @@ PyTypeObject PyNs3AmpduTag_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AmpduTag(arg0)\nAmpduTag()",                        /* Documentation string */
     (traverseproc)PyNs3AmpduTag__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AmpduTag__tp_clear,             /* tp_clear */
@@ -19377,7 +19377,7 @@ PyTypeObject PyNs3MgtAddBaRequestHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtAddBaRequestHeader(arg0)\nMgtAddBaRequestHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtAddBaRequestHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtAddBaRequestHeader__tp_clear,             /* tp_clear */
@@ -19880,7 +19880,7 @@ PyTypeObject PyNs3MgtAddBaResponseHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtAddBaResponseHeader(arg0)\nMgtAddBaResponseHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtAddBaResponseHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtAddBaResponseHeader__tp_clear,             /* tp_clear */
@@ -20457,7 +20457,7 @@ PyTypeObject PyNs3MgtAssocRequestHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtAssocRequestHeader(arg0)\nMgtAssocRequestHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtAssocRequestHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtAssocRequestHeader__tp_clear,             /* tp_clear */
@@ -21200,7 +21200,7 @@ PyTypeObject PyNs3MgtAssocResponseHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtAssocResponseHeader(arg0)\nMgtAssocResponseHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtAssocResponseHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtAssocResponseHeader__tp_clear,             /* tp_clear */
@@ -21565,7 +21565,7 @@ PyTypeObject PyNs3MgtDelBaHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtDelBaHeader(arg0)\nMgtDelBaHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtDelBaHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtDelBaHeader__tp_clear,             /* tp_clear */
@@ -22072,7 +22072,7 @@ PyTypeObject PyNs3MgtProbeRequestHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtProbeRequestHeader(arg0)\nMgtProbeRequestHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtProbeRequestHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtProbeRequestHeader__tp_clear,             /* tp_clear */
@@ -22910,7 +22910,7 @@ PyTypeObject PyNs3MgtProbeResponseHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtProbeResponseHeader(arg0)\nMgtProbeResponseHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtProbeResponseHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtProbeResponseHeader__tp_clear,             /* tp_clear */
@@ -23505,7 +23505,7 @@ PyTypeObject PyNs3MgtReassocRequestHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtReassocRequestHeader(arg0)\nMgtReassocRequestHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtReassocRequestHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtReassocRequestHeader__tp_clear,             /* tp_clear */
@@ -25680,7 +25680,7 @@ PyTypeObject PyNs3SnrTag_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "SnrTag(arg0)\nSnrTag()",                        /* Documentation string */
     (traverseproc)PyNs3SnrTag__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3SnrTag__tp_clear,             /* tp_clear */
@@ -26291,7 +26291,7 @@ PyTypeObject PyNs3SpectrumWifiPhyHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "SpectrumWifiPhyHelper(arg0)\nSpectrumWifiPhyHelper()",                        /* Documentation string */
     (traverseproc)PyNs3SpectrumWifiPhyHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3SpectrumWifiPhyHelper__tp_clear,             /* tp_clear */
@@ -29285,7 +29285,7 @@ PyTypeObject PyNs3Txop_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "Txop(arg0)\nTxop()",                        /* Documentation string */
     (traverseproc)PyNs3Txop__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Txop__tp_clear,             /* tp_clear */
@@ -29625,7 +29625,7 @@ PyTypeObject PyNs3WifiActionHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiActionHeader(arg0)\nWifiActionHeader()",                        /* Documentation string */
     (traverseproc)PyNs3WifiActionHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiActionHeader__tp_clear,             /* tp_clear */
@@ -30625,7 +30625,7 @@ PyTypeObject PyNs3WifiInformationElementVector_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiInformationElementVector(arg0)\nWifiInformationElementVector()",                        /* Documentation string */
     (traverseproc)PyNs3WifiInformationElementVector__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiInformationElementVector__tp_clear,             /* tp_clear */
@@ -31676,7 +31676,7 @@ PyTypeObject PyNs3WifiMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiMac(arg0)\nWifiMac()",                        /* Documentation string */
     (traverseproc)PyNs3WifiMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiMac__tp_clear,             /* tp_clear */
@@ -33067,7 +33067,7 @@ PyTypeObject PyNs3WifiMacHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiMacHeader(arg0)\nWifiMacHeader()",                        /* Documentation string */
     (traverseproc)PyNs3WifiMacHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiMacHeader__tp_clear,             /* tp_clear */
@@ -33588,7 +33588,7 @@ PyTypeObject PyNs3WifiMacTrailer_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiMacTrailer(arg0)\nWifiMacTrailer()",                        /* Documentation string */
     (traverseproc)PyNs3WifiMacTrailer__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiMacTrailer__tp_clear,             /* tp_clear */
@@ -38211,7 +38211,7 @@ PyTypeObject PyNs3WifiPhy_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiPhy(arg0)\nWifiPhy()",                        /* Documentation string */
     (traverseproc)PyNs3WifiPhy__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiPhy__tp_clear,             /* tp_clear */
@@ -38809,7 +38809,7 @@ PyTypeObject PyNs3WifiPhyStateHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiPhyStateHelper(arg0)\nWifiPhyStateHelper()",                        /* Documentation string */
     (traverseproc)PyNs3WifiPhyStateHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiPhyStateHelper__tp_clear,             /* tp_clear */
@@ -40759,7 +40759,7 @@ PyTypeObject PyNs3WifiRemoteStationManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiRemoteStationManager(arg0)\nWifiRemoteStationManager()",                        /* Documentation string */
     (traverseproc)PyNs3WifiRemoteStationManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiRemoteStationManager__tp_clear,             /* tp_clear */
@@ -41881,7 +41881,7 @@ PyTypeObject PyNs3WifiSpectrumPhyInterface_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiSpectrumPhyInterface()",                        /* Documentation string */
     (traverseproc)PyNs3WifiSpectrumPhyInterface__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiSpectrumPhyInterface__tp_clear,             /* tp_clear */
@@ -42764,7 +42764,7 @@ PyTypeObject PyNs3WifiTxCurrentModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiTxCurrentModel(arg0)\nWifiTxCurrentModel()",                        /* Documentation string */
     (traverseproc)PyNs3WifiTxCurrentModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiTxCurrentModel__tp_clear,             /* tp_clear */
@@ -43733,7 +43733,7 @@ PyTypeObject PyNs3YansWifiPhy_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "YansWifiPhy(arg0)\nYansWifiPhy()",                        /* Documentation string */
     (traverseproc)PyNs3YansWifiPhy__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3YansWifiPhy__tp_clear,             /* tp_clear */
@@ -44023,7 +44023,7 @@ PyTypeObject PyNs3AarfWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AarfWifiManager(arg0)\nAarfWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3AarfWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AarfWifiManager__tp_clear,             /* tp_clear */
@@ -44313,7 +44313,7 @@ PyTypeObject PyNs3AarfcdWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AarfcdWifiManager(arg0)\nAarfcdWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3AarfcdWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AarfcdWifiManager__tp_clear,             /* tp_clear */
@@ -44672,7 +44672,7 @@ PyTypeObject PyNs3AmpduSubframeHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AmpduSubframeHeader(arg0)\nAmpduSubframeHeader()",                        /* Documentation string */
     (traverseproc)PyNs3AmpduSubframeHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AmpduSubframeHeader__tp_clear,             /* tp_clear */
@@ -44962,7 +44962,7 @@ PyTypeObject PyNs3AmrrWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AmrrWifiManager(arg0)\nAmrrWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3AmrrWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AmrrWifiManager__tp_clear,             /* tp_clear */
@@ -45358,7 +45358,7 @@ PyTypeObject PyNs3AmsduSubframeHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AmsduSubframeHeader(arg0)\nAmsduSubframeHeader()",                        /* Documentation string */
     (traverseproc)PyNs3AmsduSubframeHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AmsduSubframeHeader__tp_clear,             /* tp_clear */
@@ -45648,7 +45648,7 @@ PyTypeObject PyNs3AparfWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AparfWifiManager(arg0)\nAparfWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3AparfWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AparfWifiManager__tp_clear,             /* tp_clear */
@@ -45938,7 +45938,7 @@ PyTypeObject PyNs3ArfWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ArfWifiManager(arg0)\nArfWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3ArfWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ArfWifiManager__tp_clear,             /* tp_clear */
@@ -46390,7 +46390,7 @@ PyTypeObject PyNs3AthstatsWifiTraceSink_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AthstatsWifiTraceSink(arg0)\nAthstatsWifiTraceSink()",                        /* Documentation string */
     (traverseproc)PyNs3AthstatsWifiTraceSink__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AthstatsWifiTraceSink__tp_clear,             /* tp_clear */
@@ -47246,7 +47246,7 @@ PyTypeObject PyNs3BlockAckManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "BlockAckManager()",                        /* Documentation string */
     (traverseproc)PyNs3BlockAckManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3BlockAckManager__tp_clear,             /* tp_clear */
@@ -47536,7 +47536,7 @@ PyTypeObject PyNs3CaraWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "CaraWifiManager(arg0)\nCaraWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3CaraWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3CaraWifiManager__tp_clear,             /* tp_clear */
@@ -48959,7 +48959,7 @@ PyTypeObject PyNs3ChannelAccessManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ChannelAccessManager(arg0)\nChannelAccessManager()",                        /* Documentation string */
     (traverseproc)PyNs3ChannelAccessManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ChannelAccessManager__tp_clear,             /* tp_clear */
@@ -49189,7 +49189,7 @@ PyTypeObject PyNs3ConstantRateWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ConstantRateWifiManager(arg0)\nConstantRateWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3ConstantRateWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ConstantRateWifiManager__tp_clear,             /* tp_clear */
@@ -49653,7 +49653,7 @@ PyTypeObject PyNs3CtrlBAckRequestHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "CtrlBAckRequestHeader(arg0)\nCtrlBAckRequestHeader()",                        /* Documentation string */
     (traverseproc)PyNs3CtrlBAckRequestHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3CtrlBAckRequestHeader__tp_clear,             /* tp_clear */
@@ -50263,7 +50263,7 @@ PyTypeObject PyNs3CtrlBAckResponseHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "CtrlBAckResponseHeader(arg0)\nCtrlBAckResponseHeader()",                        /* Documentation string */
     (traverseproc)PyNs3CtrlBAckResponseHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3CtrlBAckResponseHeader__tp_clear,             /* tp_clear */
@@ -52639,7 +52639,7 @@ PyTypeObject PyNs3ErrorRateModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ErrorRateModel(arg0)\nErrorRateModel()",                        /* Documentation string */
     (traverseproc)PyNs3ErrorRateModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ErrorRateModel__tp_clear,             /* tp_clear */
@@ -54521,7 +54521,7 @@ PyTypeObject PyNs3FrameCaptureModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "FrameCaptureModel(arg0)\nFrameCaptureModel()",                        /* Documentation string */
     (traverseproc)PyNs3FrameCaptureModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3FrameCaptureModel__tp_clear,             /* tp_clear */
@@ -57896,7 +57896,7 @@ PyTypeObject PyNs3IdealWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "IdealWifiManager(arg0)\nIdealWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3IdealWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3IdealWifiManager__tp_clear,             /* tp_clear */
@@ -58509,7 +58509,7 @@ PyTypeObject PyNs3LinearWifiTxCurrentModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "LinearWifiTxCurrentModel(arg0)\nLinearWifiTxCurrentModel()",                        /* Documentation string */
     (traverseproc)PyNs3LinearWifiTxCurrentModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3LinearWifiTxCurrentModel__tp_clear,             /* tp_clear */
@@ -60326,7 +60326,7 @@ PyTypeObject PyNs3MacLow_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MacLow(arg0)\nMacLow()",                        /* Documentation string */
     (traverseproc)PyNs3MacLow__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MacLow__tp_clear,             /* tp_clear */
@@ -61065,7 +61065,7 @@ PyTypeObject PyNs3MgtBeaconHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MgtBeaconHeader(arg0)\nMgtBeaconHeader()",                        /* Documentation string */
     (traverseproc)PyNs3MgtBeaconHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MgtBeaconHeader__tp_clear,             /* tp_clear */
@@ -61333,7 +61333,7 @@ PyTypeObject PyNs3MinstrelHtWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MinstrelHtWifiManager(arg0)\nMinstrelHtWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3MinstrelHtWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MinstrelHtWifiManager__tp_clear,             /* tp_clear */
@@ -61641,7 +61641,7 @@ PyTypeObject PyNs3MinstrelWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MinstrelWifiManager(arg0)\nMinstrelWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3MinstrelWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MinstrelWifiManager__tp_clear,             /* tp_clear */
@@ -62004,7 +62004,7 @@ PyTypeObject PyNs3MpduAggregator_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MpduAggregator(arg0)\nMpduAggregator()",                        /* Documentation string */
     (traverseproc)PyNs3MpduAggregator__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MpduAggregator__tp_clear,             /* tp_clear */
@@ -62294,7 +62294,7 @@ PyTypeObject PyNs3MsduAggregator_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MsduAggregator(arg0)\nMsduAggregator()",                        /* Documentation string */
     (traverseproc)PyNs3MsduAggregator__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MsduAggregator__tp_clear,             /* tp_clear */
@@ -62920,7 +62920,7 @@ PyTypeObject PyNs3NistErrorRateModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "NistErrorRateModel(arg0)\nNistErrorRateModel()",                        /* Documentation string */
     (traverseproc)PyNs3NistErrorRateModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3NistErrorRateModel__tp_clear,             /* tp_clear */
@@ -63210,7 +63210,7 @@ PyTypeObject PyNs3OnoeWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "OnoeWifiManager(arg0)\nOnoeWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3OnoeWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3OnoeWifiManager__tp_clear,             /* tp_clear */
@@ -63500,7 +63500,7 @@ PyTypeObject PyNs3ParfWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ParfWifiManager(arg0)\nParfWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3ParfWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ParfWifiManager__tp_clear,             /* tp_clear */
@@ -66476,7 +66476,7 @@ PyTypeObject PyNs3QosTxop_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "QosTxop(arg0)\nQosTxop()",                        /* Documentation string */
     (traverseproc)PyNs3QosTxop__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3QosTxop__tp_clear,             /* tp_clear */
@@ -67447,7 +67447,7 @@ PyTypeObject PyNs3Queue__Ns3WifiMacQueueItem_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "Queue__Ns3WifiMacQueueItem(arg0)\nQueue__Ns3WifiMacQueueItem()",                        /* Documentation string */
     (traverseproc)PyNs3Queue__Ns3WifiMacQueueItem__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Queue__Ns3WifiMacQueueItem__tp_clear,             /* tp_clear */
@@ -71655,7 +71655,7 @@ PyTypeObject PyNs3RegularWifiMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "RegularWifiMac()",                        /* Documentation string */
     (traverseproc)PyNs3RegularWifiMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3RegularWifiMac__tp_clear,             /* tp_clear */
@@ -71945,7 +71945,7 @@ PyTypeObject PyNs3RraaWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "RraaWifiManager(arg0)\nRraaWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3RraaWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3RraaWifiManager__tp_clear,             /* tp_clear */
@@ -72253,7 +72253,7 @@ PyTypeObject PyNs3RrpaaWifiManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "RrpaaWifiManager(arg0)\nRrpaaWifiManager()",                        /* Documentation string */
     (traverseproc)PyNs3RrpaaWifiManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3RrpaaWifiManager__tp_clear,             /* tp_clear */
@@ -72946,7 +72946,7 @@ PyTypeObject PyNs3SimpleFrameCaptureModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "SimpleFrameCaptureModel(arg0)\nSimpleFrameCaptureModel()",                        /* Documentation string */
     (traverseproc)PyNs3SimpleFrameCaptureModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3SimpleFrameCaptureModel__tp_clear,             /* tp_clear */
@@ -74230,7 +74230,7 @@ PyTypeObject PyNs3SpectrumWifiPhy_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "SpectrumWifiPhy(arg0)\nSpectrumWifiPhy()",                        /* Documentation string */
     (traverseproc)PyNs3SpectrumWifiPhy__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3SpectrumWifiPhy__tp_clear,             /* tp_clear */
@@ -78055,7 +78055,7 @@ PyTypeObject PyNs3WifiMacQueue_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiMacQueue(arg0)\nWifiMacQueue()",                        /* Documentation string */
     (traverseproc)PyNs3WifiMacQueue__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiMacQueue__tp_clear,             /* tp_clear */
@@ -80820,7 +80820,7 @@ PyTypeObject PyNs3WifiNetDevice_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiNetDevice()",                        /* Documentation string */
     (traverseproc)PyNs3WifiNetDevice__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiNetDevice__tp_clear,             /* tp_clear */
@@ -82032,7 +82032,7 @@ PyTypeObject PyNs3WifiRadioEnergyModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WifiRadioEnergyModel(arg0)\nWifiRadioEnergyModel()",                        /* Documentation string */
     (traverseproc)PyNs3WifiRadioEnergyModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WifiRadioEnergyModel__tp_clear,             /* tp_clear */
@@ -82658,7 +82658,7 @@ PyTypeObject PyNs3YansErrorRateModel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "YansErrorRateModel(arg0)\nYansErrorRateModel()",                        /* Documentation string */
     (traverseproc)PyNs3YansErrorRateModel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3YansErrorRateModel__tp_clear,             /* tp_clear */
@@ -83432,7 +83432,7 @@ PyTypeObject PyNs3YansWifiChannel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "YansWifiChannel(arg0)\nYansWifiChannel()",                        /* Documentation string */
     (traverseproc)PyNs3YansWifiChannel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3YansWifiChannel__tp_clear,             /* tp_clear */
@@ -86223,7 +86223,7 @@ PyTypeObject PyNs3AdhocWifiMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "AdhocWifiMac()",                        /* Documentation string */
     (traverseproc)PyNs3AdhocWifiMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3AdhocWifiMac__tp_clear,             /* tp_clear */
@@ -89959,7 +89959,7 @@ PyTypeObject PyNs3InfrastructureWifiMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "InfrastructureWifiMac()",                        /* Documentation string */
     (traverseproc)PyNs3InfrastructureWifiMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3InfrastructureWifiMac__tp_clear,             /* tp_clear */
@@ -92664,7 +92664,7 @@ PyTypeObject PyNs3StaWifiMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "StaWifiMac()",                        /* Documentation string */
     (traverseproc)PyNs3StaWifiMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3StaWifiMac__tp_clear,             /* tp_clear */
@@ -95533,7 +95533,7 @@ PyTypeObject PyNs3ApWifiMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ApWifiMac()",                        /* Documentation string */
     (traverseproc)PyNs3ApWifiMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ApWifiMac__tp_clear,             /* tp_clear */

@@ -1749,7 +1749,7 @@ PyTypeObject PyNs3Dot11sHwmpProtocol_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "HwmpProtocol()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sHwmpProtocol__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sHwmpProtocol__tp_clear,             /* tp_clear */
@@ -2881,7 +2881,7 @@ PyTypeObject PyNs3Dot11sHwmpRtable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "HwmpRtable(arg0)\nHwmpRtable()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sHwmpRtable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sHwmpRtable__tp_clear,             /* tp_clear */
@@ -8808,7 +8808,7 @@ PyTypeObject PyNs3Dot11sMeshHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "MeshHeader(arg0)\nMeshHeader()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sMeshHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sMeshHeader__tp_clear,             /* tp_clear */
@@ -9597,7 +9597,7 @@ PyTypeObject PyNs3Dot11sPeerLink_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "PeerLink()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sPeerLink__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sPeerLink__tp_clear,             /* tp_clear */
@@ -9861,7 +9861,7 @@ PyTypeObject PyNs3Dot11sPeerLinkCloseStart_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "PeerLinkCloseStart()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sPeerLinkCloseStart__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sPeerLinkCloseStart__tp_clear,             /* tp_clear */
@@ -10386,7 +10386,7 @@ PyTypeObject PyNs3Dot11sPeerLinkConfirmStart_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "PeerLinkConfirmStart()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sPeerLinkConfirmStart__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sPeerLinkConfirmStart__tp_clear,             /* tp_clear */
@@ -11011,7 +11011,7 @@ PyTypeObject PyNs3Dot11sPeerLinkOpenStart_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "PeerLinkOpenStart()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sPeerLinkOpenStart__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sPeerLinkOpenStart__tp_clear,             /* tp_clear */
@@ -12290,7 +12290,7 @@ PyTypeObject PyNs3Dot11sPeerManagementProtocol_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "PeerManagementProtocol()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sPeerManagementProtocol__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sPeerManagementProtocol__tp_clear,             /* tp_clear */
@@ -15094,7 +15094,7 @@ PyTypeObject PyNs3FlameFlameHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "FlameHeader(arg0)\nFlameHeader()",                        /* Documentation string */
     (traverseproc)PyNs3FlameFlameHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3FlameFlameHeader__tp_clear,             /* tp_clear */
@@ -15750,7 +15750,7 @@ PyTypeObject PyNs3FlameFlameProtocol_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "FlameProtocol()",                        /* Documentation string */
     (traverseproc)PyNs3FlameFlameProtocol__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3FlameFlameProtocol__tp_clear,             /* tp_clear */
@@ -16667,7 +16667,7 @@ PyTypeObject PyNs3FlameFlameRtable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "FlameRtable()",                        /* Documentation string */
     (traverseproc)PyNs3FlameFlameRtable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3FlameFlameRtable__tp_clear,             /* tp_clear */
@@ -17388,7 +17388,7 @@ PyTypeObject PyNs3FlameFlameTag_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "FlameTag(arg0)\nFlameTag(a)",                        /* Documentation string */
     (traverseproc)PyNs3FlameFlameTag__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3FlameFlameTag__tp_clear,             /* tp_clear */
@@ -20211,7 +20211,7 @@ PyTypeObject PyNs3MeshInformationElementVector_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "MeshInformationElementVector(arg0)\nMeshInformationElementVector()",                        /* Documentation string */
     (traverseproc)PyNs3MeshInformationElementVector__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MeshInformationElementVector__tp_clear,             /* tp_clear */
@@ -20488,7 +20488,7 @@ PyTypeObject PyNs3MeshL2RoutingProtocol_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "MeshL2RoutingProtocol(arg0)\nMeshL2RoutingProtocol()",                        /* Documentation string */
     (traverseproc)PyNs3MeshL2RoutingProtocol__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MeshL2RoutingProtocol__tp_clear,             /* tp_clear */
@@ -20660,7 +20660,7 @@ PyTypeObject PyNs3MeshStack_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "MeshStack(arg0)\nMeshStack()",                        /* Documentation string */
     (traverseproc)PyNs3MeshStack__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MeshStack__tp_clear,             /* tp_clear */
@@ -21302,7 +21302,7 @@ PyTypeObject PyNs3Dot11sStack_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "Dot11sStack(arg0)\nDot11sStack()",                        /* Documentation string */
     (traverseproc)PyNs3Dot11sStack__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Dot11sStack__tp_clear,             /* tp_clear */
@@ -21565,7 +21565,7 @@ PyTypeObject PyNs3FlameStack_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "FlameStack(arg0)\nFlameStack()",                        /* Documentation string */
     (traverseproc)PyNs3FlameStack__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3FlameStack__tp_clear,             /* tp_clear */
@@ -24003,7 +24003,7 @@ PyTypeObject PyNs3MeshPointDevice_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "MeshPointDevice(arg0)\nMeshPointDevice()",                        /* Documentation string */
     (traverseproc)PyNs3MeshPointDevice__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MeshPointDevice__tp_clear,             /* tp_clear */
@@ -24629,7 +24629,7 @@ PyTypeObject PyNs3MeshWifiInterfaceMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
     "MeshWifiInterfaceMac()",                        /* Documentation string */
     (traverseproc)PyNs3MeshWifiInterfaceMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MeshWifiInterfaceMac__tp_clear,             /* tp_clear */

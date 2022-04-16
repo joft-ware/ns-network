@@ -13,7 +13,6 @@ static void
 CwndChange (uint32_t oldCwnd, uint32_t newCwnd)
 {
   std::cout << Simulator::Now ().GetSeconds () << "\t" << newCwnd << std::endl;
-  NS_LOG_INFO(Simulator::Now ().GetSeconds () << "\t" << newCwnd);
 }
 
 int 

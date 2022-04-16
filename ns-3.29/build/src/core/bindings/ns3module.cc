@@ -6729,7 +6729,7 @@ PyTypeObject PyNs3CommandLine_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "CommandLine(cmd)\nCommandLine()",                        /* Documentation string */
     (traverseproc)PyNs3CommandLine__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3CommandLine__tp_clear,             /* tp_clear */
@@ -12488,7 +12488,7 @@ PyTypeObject PyNs3ObjectBase_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ObjectBase(arg0)\nObjectBase()",                        /* Documentation string */
     (traverseproc)PyNs3ObjectBase__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ObjectBase__tp_clear,             /* tp_clear */
@@ -14103,7 +14103,7 @@ PyTypeObject PyNs3SimpleRefCount__Ns3Object_Ns3ObjectBase_Ns3ObjectDeleter_Type 
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "SimpleRefCount__Ns3Object_Ns3ObjectBase_Ns3ObjectDeleter(o)\nSimpleRefCount__Ns3Object_Ns3ObjectBase_Ns3ObjectDeleter()",                        /* Documentation string */
     (traverseproc)PyNs3SimpleRefCount__Ns3Object_Ns3ObjectBase_Ns3ObjectDeleter__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3SimpleRefCount__Ns3Object_Ns3ObjectBase_Ns3ObjectDeleter__tp_clear,             /* tp_clear */
@@ -16524,7 +16524,7 @@ PyTypeObject PyNs3TimerImpl_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "TimerImpl(arg0)\nTimerImpl()",                        /* Documentation string */
     (traverseproc)PyNs3TimerImpl__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3TimerImpl__tp_clear,             /* tp_clear */
@@ -21552,7 +21552,7 @@ PyTypeObject PyNs3Object_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "Object(o)\nObject()",                        /* Documentation string */
     (traverseproc)PyNs3Object__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Object__tp_clear,             /* tp_clear */
@@ -22467,7 +22467,7 @@ PyTypeObject PyNs3RandomVariableStream_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "RandomVariableStream()",                        /* Documentation string */
     (traverseproc)PyNs3RandomVariableStream__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3RandomVariableStream__tp_clear,             /* tp_clear */
@@ -23326,7 +23326,7 @@ PyTypeObject PyNs3Scheduler_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "Scheduler(arg0)\nScheduler()",                        /* Documentation string */
     (traverseproc)PyNs3Scheduler__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Scheduler__tp_clear,             /* tp_clear */
@@ -24516,7 +24516,7 @@ PyTypeObject PyNs3SequentialRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "SequentialRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3SequentialRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3SequentialRandomVariable__tp_clear,             /* tp_clear */
@@ -26861,7 +26861,7 @@ PyTypeObject PyNs3SimulatorImpl_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "SimulatorImpl(arg0)\nSimulatorImpl()",                        /* Documentation string */
     (traverseproc)PyNs3SimulatorImpl__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3SimulatorImpl__tp_clear,             /* tp_clear */
@@ -27996,7 +27996,7 @@ PyTypeObject PyNs3Synchronizer_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "Synchronizer(arg0)\nSynchronizer()",                        /* Documentation string */
     (traverseproc)PyNs3Synchronizer__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Synchronizer__tp_clear,             /* tp_clear */
@@ -30507,7 +30507,7 @@ PyTypeObject PyNs3TriangularRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "TriangularRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3TriangularRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3TriangularRandomVariable__tp_clear,             /* tp_clear */
@@ -31237,7 +31237,7 @@ PyTypeObject PyNs3UniformRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "UniformRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3UniformRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3UniformRandomVariable__tp_clear,             /* tp_clear */
@@ -32571,7 +32571,7 @@ PyTypeObject PyNs3WallClockSynchronizer_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WallClockSynchronizer(arg0)\nWallClockSynchronizer()",                        /* Documentation string */
     (traverseproc)PyNs3WallClockSynchronizer__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WallClockSynchronizer__tp_clear,             /* tp_clear */
@@ -33316,7 +33316,7 @@ PyTypeObject PyNs3WeibullRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "WeibullRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3WeibullRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WeibullRandomVariable__tp_clear,             /* tp_clear */
@@ -34031,7 +34031,7 @@ PyTypeObject PyNs3ZetaRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ZetaRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3ZetaRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ZetaRandomVariable__tp_clear,             /* tp_clear */
@@ -34761,7 +34761,7 @@ PyTypeObject PyNs3ZipfRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ZipfRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3ZipfRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ZipfRandomVariable__tp_clear,             /* tp_clear */
@@ -36756,7 +36756,7 @@ PyTypeObject PyNs3CalendarScheduler_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "CalendarScheduler(arg0)\nCalendarScheduler()",                        /* Documentation string */
     (traverseproc)PyNs3CalendarScheduler__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3CalendarScheduler__tp_clear,             /* tp_clear */
@@ -38055,7 +38055,7 @@ PyTypeObject PyNs3ConstantRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ConstantRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3ConstantRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ConstantRandomVariable__tp_clear,             /* tp_clear */
@@ -38548,7 +38548,7 @@ PyTypeObject PyNs3DefaultSimulatorImpl_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "DefaultSimulatorImpl(arg0)\nDefaultSimulatorImpl()",                        /* Documentation string */
     (traverseproc)PyNs3DefaultSimulatorImpl__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3DefaultSimulatorImpl__tp_clear,             /* tp_clear */
@@ -39155,7 +39155,7 @@ PyTypeObject PyNs3DeterministicRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "DeterministicRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3DeterministicRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3DeterministicRandomVariable__tp_clear,             /* tp_clear */
@@ -40189,7 +40189,7 @@ PyTypeObject PyNs3EmpiricalRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "EmpiricalRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3EmpiricalRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3EmpiricalRandomVariable__tp_clear,             /* tp_clear */
@@ -42320,7 +42320,7 @@ PyTypeObject PyNs3ErlangRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ErlangRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3ErlangRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ErlangRandomVariable__tp_clear,             /* tp_clear */
@@ -43207,7 +43207,7 @@ PyTypeObject PyNs3ExponentialRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ExponentialRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3ExponentialRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ExponentialRandomVariable__tp_clear,             /* tp_clear */
@@ -44069,7 +44069,7 @@ PyTypeObject PyNs3GammaRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "GammaRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3GammaRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3GammaRandomVariable__tp_clear,             /* tp_clear */
@@ -44947,7 +44947,7 @@ PyTypeObject PyNs3HeapScheduler_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "HeapScheduler(arg0)\nHeapScheduler()",                        /* Documentation string */
     (traverseproc)PyNs3HeapScheduler__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3HeapScheduler__tp_clear,             /* tp_clear */
@@ -46153,7 +46153,7 @@ PyTypeObject PyNs3ListScheduler_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ListScheduler(arg0)\nListScheduler()",                        /* Documentation string */
     (traverseproc)PyNs3ListScheduler__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ListScheduler__tp_clear,             /* tp_clear */
@@ -46883,7 +46883,7 @@ PyTypeObject PyNs3LogNormalRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "LogNormalRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3LogNormalRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3LogNormalRandomVariable__tp_clear,             /* tp_clear */
@@ -47761,7 +47761,7 @@ PyTypeObject PyNs3MapScheduler_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MapScheduler(arg0)\nMapScheduler()",                        /* Documentation string */
     (traverseproc)PyNs3MapScheduler__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MapScheduler__tp_clear,             /* tp_clear */
@@ -48573,7 +48573,7 @@ PyTypeObject PyNs3NormalRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "NormalRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3NormalRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3NormalRandomVariable__tp_clear,             /* tp_clear */
@@ -50417,7 +50417,7 @@ PyTypeObject PyNs3ParetoRandomVariable_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ParetoRandomVariable()",                        /* Documentation string */
     (traverseproc)PyNs3ParetoRandomVariable__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ParetoRandomVariable__tp_clear,             /* tp_clear */
@@ -51493,7 +51493,7 @@ PyTypeObject PyNs3RealtimeSimulatorImpl_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "RealtimeSimulatorImpl(arg0)\nRealtimeSimulatorImpl()",                        /* Documentation string */
     (traverseproc)PyNs3RealtimeSimulatorImpl__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3RealtimeSimulatorImpl__tp_clear,             /* tp_clear */
