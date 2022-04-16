@@ -73,10 +73,10 @@ main (int argc, char *argv[])
 //==========================================================================================
 /* ToDo: Install packet sinks to the destinations
 	  Hint: Need to install packet sinks for both TCP and UDP traffic */
-	PacketSinkHelper packetSinkHelperTcp ("ns3::TcpSocketFactory", sinkAddressTcp);
-	ApplicationContainer sinkAppTcp ();
+	PacketSinkHelper packetSinkHelperTcp ("ns3::TcpSocketFactory", InetSocketAddress(Ipv4Address::GetAny(), sinkPortTcp));
+	ApplicationContainer sinkAppTcp = packetSinkHelperTcp.Install(nDst);
 	PacketSinkHelper packetSinkHelperUdp ("ns3::UdpSocketFactory", sinkAddressUdp);
-	ApplicationContainer sinkAppUdp (...);
+	ApplicationContainer sinkAppUdp = packetSinkHelperUdp.Install(nDst);
 //==========================================================================================
 
   sinkAppTcp.Start (Seconds (0.));
