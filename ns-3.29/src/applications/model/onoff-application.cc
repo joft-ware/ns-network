@@ -121,6 +121,13 @@ OnOffApplication::SetMaxBytes (uint64_t maxBytes)
   m_maxBytes = maxBytes;
 }
 
+void
+OnOffApplication::SetSocket (Ptr<Socket> socket)
+{
+  NS_LOG_FUNCTION (this);
+  m_socket = socket;
+}
+
 Ptr<Socket>
 OnOffApplication::GetSocket (void) const
 {

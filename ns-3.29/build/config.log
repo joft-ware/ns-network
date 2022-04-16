@@ -1,6 +1,6 @@
-# project ns (3.29) configured on Fri Apr  8 23:07:27 2022 by
+# project ns (3.29) configured on Sat Apr 16 13:55:21 2022 by
 # waf 2.0.9 (abi 20, python 30609f0 on linux)
-# using ./waf configure ‐‐build‐profile=debug ‐‐enable-examples ‐‐enable‐tests
+# using ./waf configure --build-profile=debug --enable-examples --enable-tests
 #
 ----------------------------------------
 Setting top to
@@ -724,18 +724,18 @@ Checking for compilation flag -Wl,--soname=foo support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wl,--soname=foo', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wl,--soname=foo', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------
 Checking for compilation flag -std=c++11 support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------
 Checking for program 'python'
@@ -841,12 +841,12 @@ int main(int argc, char **argv)
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_3b589c6b4d0064319e78ea2dc4c0b126/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_52f9ea4d8e0959fcb3bea2bb4947c12c/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3b589c6b4d0064319e78ea2dc4c0b126/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_3b589c6b4d0064319e78ea2dc4c0b126/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_52f9ea4d8e0959fcb3bea2bb4947c12c/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_52f9ea4d8e0959fcb3bea2bb4947c12c/testbuild/testprog[0m
 
-['/usr/bin/g++', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3b589c6b4d0064319e78ea2dc4c0b126/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
+['/usr/bin/g++', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_52f9ea4d8e0959fcb3bea2bb4947c12c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
 yes
 ------------------------------------------------------------------
 Asking python-config for pyext '--cflags --libs --ldflags' flags
@@ -883,30 +883,30 @@ int main(int argc, char **argv)
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_e74c8dea5122ab7324a78b3e79e20216/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_539b2c1dc656d4b59352708ed6f740ab/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fPIC', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e74c8dea5122ab7324a78b3e79e20216/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_e74c8dea5122ab7324a78b3e79e20216/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fPIC', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_539b2c1dc656d4b59352708ed6f740ab/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_539b2c1dc656d4b59352708ed6f740ab/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so[0m
 
-['/usr/bin/g++', '-shared', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e74c8dea5122ab7324a78b3e79e20216/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
+['/usr/bin/g++', '-shared', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_539b2c1dc656d4b59352708ed6f740ab/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
 yes
 ------------------------------------------------------------------
 Checking for compilation flag -fvisibility=hidden support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fvisibility=hidden', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fvisibility=hidden', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -Wno-array-bounds support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for pybindgen location
@@ -934,9 +934,9 @@ int main ()
 }
 
 <==
-[1/1] Compiling [32mbuild/.conf_check_e93e24cbf5a3133e3cd5463b8c9ab10f/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_1f9a1d57d6888df62908cbe93d4cfe3b/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e93e24cbf5a3133e3cd5463b8c9ab10f/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1f9a1d57d6888df62908cbe93d4cfe3b/testbuild/test.cpp.1.o']
 yes
 ------------------------------------------------------------------
 Checking for types uint64_t and unsigned long equivalence
@@ -955,9 +955,9 @@ int main ()
 }
 
 <==
-[1/1] Compiling [32mbuild/.conf_check_274b875288c5d65ff7c365f2428a7a84/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_9d7824d961261dab892a3ef043a5d68f/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_274b875288c5d65ff7c365f2428a7a84/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_9d7824d961261dab892a3ef043a5d68f/testbuild/test.cpp.1.o']
 err: ../test.cpp: In function ‘int main()’:
 ../test.cpp:7:37: error: conversion from ‘std::vector<long long unsigned int>’ to non-scalar type ‘std::vector<long unsigned int>’ requested
     std::vector< uint64_t > t = std::vector< unsigned long long > ();
@@ -991,12 +991,12 @@ int main ()
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_a38298d3a6a5a8da314bc2f2ca7260d7/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_aca06b186573817467ba32ffab9ea574/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a38298d3a6a5a8da314bc2f2ca7260d7/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_a38298d3a6a5a8da314bc2f2ca7260d7/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_aca06b186573817467ba32ffab9ea574/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_aca06b186573817467ba32ffab9ea574/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a38298d3a6a5a8da314bc2f2ca7260d7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_aca06b186573817467ba32ffab9ea574/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 complete
 ------------------------------------------------------------------
 Checking for python module 'pygccxml'
@@ -1052,9 +1052,9 @@ checking for uint128_t
         }
         
 <==
-[1/2] Compiling [32mbuild/.conf_check_9d3e341e3b3fb46385d2352c7f53ab40/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_7e5c9958b608de5c54fc0bde4a554426/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_9d3e341e3b3fb46385d2352c7f53ab40/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_7e5c9958b608de5c54fc0bde4a554426/testbuild/test.cpp.1.o']
 err: ../test.cpp: In function ‘int main(int, char**)’:
 ../test.cpp:6:7: error: ‘uint128_t’ was not declared in this scope
   if ((uint128_t *) 0) return 0;
@@ -1101,12 +1101,12 @@ checking for __uint128_t
         }
         
 <==
-[1/2] Compiling [32mbuild/.conf_check_0d1fe0b25e9d164fb8720d90cb24ab17/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_35d0bf227b04b7cb13223153bae8c7f4/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_0d1fe0b25e9d164fb8720d90cb24ab17/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_0d1fe0b25e9d164fb8720d90cb24ab17/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_35d0bf227b04b7cb13223153bae8c7f4/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_35d0bf227b04b7cb13223153bae8c7f4/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_0d1fe0b25e9d164fb8720d90cb24ab17/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_35d0bf227b04b7cb13223153bae8c7f4/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking high precision implementation
@@ -1122,12 +1122,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_bfaf97fead7bab386683e69af4b29635/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_0afb9372e72f843d5836e19743baf252/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_bfaf97fead7bab386683e69af4b29635/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_bfaf97fead7bab386683e69af4b29635/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_0afb9372e72f843d5836e19743baf252/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_0afb9372e72f843d5836e19743baf252/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_bfaf97fead7bab386683e69af4b29635/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_0afb9372e72f843d5836e19743baf252/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header inttypes.h
@@ -1140,12 +1140,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_3406ff569c407088eb7eb723fe13fd93/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3406ff569c407088eb7eb723fe13fd93/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_3406ff569c407088eb7eb723fe13fd93/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3406ff569c407088eb7eb723fe13fd93/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1158,9 +1158,9 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_bddc330dc4a5f2eb4994ac984122c2e6/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_981259021910041338d819e222f404e6/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_bddc330dc4a5f2eb4994ac984122c2e6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_981259021910041338d819e222f404e6/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: sys/inttypes.h: No such file or directory
  #include <sys/inttypes.h>
           ^~~~~~~~~~~~~~~~
@@ -1187,12 +1187,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_89b2c939732df84fdcd4b02002881baa/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_a1e1735305981de33681eac206771529/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_89b2c939732df84fdcd4b02002881baa/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_89b2c939732df84fdcd4b02002881baa/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a1e1735305981de33681eac206771529/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_a1e1735305981de33681eac206771529/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_89b2c939732df84fdcd4b02002881baa/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a1e1735305981de33681eac206771529/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header sys/stat.h
@@ -1205,12 +1205,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_ddc291a5f908d234d09932cce5f32119/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_06e01a4a1e2f3a3fa7b16cc8ed38dca4/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ddc291a5f908d234d09932cce5f32119/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_ddc291a5f908d234d09932cce5f32119/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_06e01a4a1e2f3a3fa7b16cc8ed38dca4/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_06e01a4a1e2f3a3fa7b16cc8ed38dca4/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ddc291a5f908d234d09932cce5f32119/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_06e01a4a1e2f3a3fa7b16cc8ed38dca4/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header dirent.h
@@ -1223,12 +1223,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_f669a9ccb0e0f3bc61554db7bf7a54d9/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_4826589e16c6d846c025063ed8c9c5c7/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f669a9ccb0e0f3bc61554db7bf7a54d9/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_f669a9ccb0e0f3bc61554db7bf7a54d9/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4826589e16c6d846c025063ed8c9c5c7/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_4826589e16c6d846c025063ed8c9c5c7/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f669a9ccb0e0f3bc61554db7bf7a54d9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4826589e16c6d846c025063ed8c9c5c7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header stdlib.h
@@ -1241,12 +1241,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_7e6133b9a7e666aaa477da9902c2f5e6/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_f2bfd7e07a68f4afd2acc3ba4545a562/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_7e6133b9a7e666aaa477da9902c2f5e6/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_7e6133b9a7e666aaa477da9902c2f5e6/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f2bfd7e07a68f4afd2acc3ba4545a562/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_f2bfd7e07a68f4afd2acc3ba4545a562/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_7e6133b9a7e666aaa477da9902c2f5e6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f2bfd7e07a68f4afd2acc3ba4545a562/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header signal.h
@@ -1259,12 +1259,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_71bd3aa5864329c77aa94cc7a06182ec/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_9a0b7db7f2ed4f91a48dd62e44a43474/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_71bd3aa5864329c77aa94cc7a06182ec/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_71bd3aa5864329c77aa94cc7a06182ec/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_9a0b7db7f2ed4f91a48dd62e44a43474/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_9a0b7db7f2ed4f91a48dd62e44a43474/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_71bd3aa5864329c77aa94cc7a06182ec/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_9a0b7db7f2ed4f91a48dd62e44a43474/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header pthread.h
@@ -1279,12 +1279,12 @@ int main ()
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_928f48c41c5a4881aa4176f8bbbdc6e8/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_6c79204b6e60e239cd738f5e6afc572c/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_928f48c41c5a4881aa4176f8bbbdc6e8/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_928f48c41c5a4881aa4176f8bbbdc6e8/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c79204b6e60e239cd738f5e6afc572c/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_6c79204b6e60e239cd738f5e6afc572c/testbuild/testprog[0m
 
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_928f48c41c5a4881aa4176f8bbbdc6e8/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c79204b6e60e239cd738f5e6afc572c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header stdint.h
@@ -1297,12 +1297,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_bfaf97fead7bab386683e69af4b29635/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_0afb9372e72f843d5836e19743baf252/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_bfaf97fead7bab386683e69af4b29635/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_bfaf97fead7bab386683e69af4b29635/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_0afb9372e72f843d5836e19743baf252/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_0afb9372e72f843d5836e19743baf252/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_bfaf97fead7bab386683e69af4b29635/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_0afb9372e72f843d5836e19743baf252/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header inttypes.h
@@ -1315,12 +1315,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_3406ff569c407088eb7eb723fe13fd93/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3406ff569c407088eb7eb723fe13fd93/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_3406ff569c407088eb7eb723fe13fd93/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3406ff569c407088eb7eb723fe13fd93/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_68354a5c7133871103f56f6f2c3b4ef6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1333,9 +1333,9 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_bddc330dc4a5f2eb4994ac984122c2e6/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_981259021910041338d819e222f404e6/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_bddc330dc4a5f2eb4994ac984122c2e6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_981259021910041338d819e222f404e6/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: sys/inttypes.h: No such file or directory
  #include <sys/inttypes.h>
           ^~~~~~~~~~~~~~~~
@@ -1361,12 +1361,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_e5ad5b1196870ea6aaeed52dad0316a6/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_e7a9dc40de286f11331efb3f57226e4a/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e5ad5b1196870ea6aaeed52dad0316a6/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_e5ad5b1196870ea6aaeed52dad0316a6/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e7a9dc40de286f11331efb3f57226e4a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_e7a9dc40de286f11331efb3f57226e4a/testbuild/testprog[0m
 
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e5ad5b1196870ea6aaeed52dad0316a6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e7a9dc40de286f11331efb3f57226e4a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
 yes
 ------------------------------------------------------------------
 Checking for header sys/ioctl.h
@@ -1379,12 +1379,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_8575749d0931e1f6d6b569cc89b94634/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_032bf6bca3e6346ce9addeb2835792f6/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8575749d0931e1f6d6b569cc89b94634/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_8575749d0931e1f6d6b569cc89b94634/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_032bf6bca3e6346ce9addeb2835792f6/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_032bf6bca3e6346ce9addeb2835792f6/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8575749d0931e1f6d6b569cc89b94634/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_032bf6bca3e6346ce9addeb2835792f6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header net/if.h
@@ -1397,12 +1397,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_30ed25f3dd398b6a9432347b8ea1d778/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_ca432a9d3d9dfed9302d00cdf33ee7f9/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_30ed25f3dd398b6a9432347b8ea1d778/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_30ed25f3dd398b6a9432347b8ea1d778/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ca432a9d3d9dfed9302d00cdf33ee7f9/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_ca432a9d3d9dfed9302d00cdf33ee7f9/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_30ed25f3dd398b6a9432347b8ea1d778/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ca432a9d3d9dfed9302d00cdf33ee7f9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header net/ethernet.h
@@ -1415,12 +1415,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_c3ab395ec887b740630fc6fd1f4d429f/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_3c75090f938c77feb6a48c039536f415/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c3ab395ec887b740630fc6fd1f4d429f/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_c3ab395ec887b740630fc6fd1f4d429f/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3c75090f938c77feb6a48c039536f415/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_3c75090f938c77feb6a48c039536f415/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c3ab395ec887b740630fc6fd1f4d429f/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3c75090f938c77feb6a48c039536f415/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header linux/if_tun.h
@@ -1433,12 +1433,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_8cec3580a839f1ad24a734316dd63a2b/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8cec3580a839f1ad24a734316dd63a2b/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_8cec3580a839f1ad24a734316dd63a2b/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8cec3580a839f1ad24a734316dd63a2b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header netpacket/packet.h
@@ -1451,12 +1451,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_849b72be5018e607a7323b366e36ddd0/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_ff11b6c7b37c1b71cd8a5e92166cfd07/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_849b72be5018e607a7323b366e36ddd0/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_849b72be5018e607a7323b366e36ddd0/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ff11b6c7b37c1b71cd8a5e92166cfd07/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_ff11b6c7b37c1b71cd8a5e92166cfd07/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_849b72be5018e607a7323b366e36ddd0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ff11b6c7b37c1b71cd8a5e92166cfd07/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for NSC location
@@ -1482,12 +1482,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_8cec3580a839f1ad24a734316dd63a2b/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8cec3580a839f1ad24a734316dd63a2b/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_8cec3580a839f1ad24a734316dd63a2b/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a8fd60254d51cdcb27ba8ffe38323a3f/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8cec3580a839f1ad24a734316dd63a2b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for python module 'gi'
@@ -1616,36 +1616,36 @@ Checking for compilation flag -fstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -fstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_2f941d0ae4b66c206f697b340557647a/test.c[0m
+[1/1] Compiling [32mbuild/.conf_check_ead4fd58c9ef1aaed0620780a08618eb/test.c[0m
 
-['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_2f941d0ae4b66c206f697b340557647a/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ead4fd58c9ef1aaed0620780a08618eb/testbuild/test.c.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -Wstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c30b4663504f3e009699a1b0bf6a22c6/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_4510f3e7867a3cc7c14fc91d0da1c0f3/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -Wstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_2f941d0ae4b66c206f697b340557647a/test.c[0m
+[1/1] Compiling [32mbuild/.conf_check_ead4fd58c9ef1aaed0620780a08618eb/test.c[0m
 
-['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_2f941d0ae4b66c206f697b340557647a/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ead4fd58c9ef1aaed0620780a08618eb/testbuild/test.c.1.o']
 ok
 ------------------------------------------------------------------
 Checking for program 'doxygen'

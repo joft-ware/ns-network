@@ -974,7 +974,7 @@ PyTypeObject PyNs3ParallelCommunicationInterface_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "ParallelCommunicationInterface(arg0)\nParallelCommunicationInterface()",                        /* Documentation string */
     (traverseproc)PyNs3ParallelCommunicationInterface__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ParallelCommunicationInterface__tp_clear,             /* tp_clear */
@@ -1548,7 +1548,7 @@ PyTypeObject PyNs3MpiReceiver_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "MpiReceiver(arg0)\nMpiReceiver()",                        /* Documentation string */
     (traverseproc)PyNs3MpiReceiver__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3MpiReceiver__tp_clear,             /* tp_clear */

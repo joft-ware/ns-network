@@ -4666,7 +4666,7 @@ PyTypeObject PyNs3WaveHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "WaveHelper(arg0)\nWaveHelper()",                        /* Documentation string */
     (traverseproc)PyNs3WaveHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WaveHelper__tp_clear,             /* tp_clear */
@@ -5018,7 +5018,7 @@ PyTypeObject PyNs3HigherLayerTxVectorTag_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "HigherLayerTxVectorTag(txVector, adaptable)\nHigherLayerTxVectorTag(arg0)\nHigherLayerTxVectorTag()",                        /* Documentation string */
     (traverseproc)PyNs3HigherLayerTxVectorTag__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3HigherLayerTxVectorTag__tp_clear,             /* tp_clear */
@@ -5378,7 +5378,7 @@ PyTypeObject PyNs3NqosWaveMacHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "NqosWaveMacHelper(arg0)\nNqosWaveMacHelper()",                        /* Documentation string */
     (traverseproc)PyNs3NqosWaveMacHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3NqosWaveMacHelper__tp_clear,             /* tp_clear */
@@ -5738,7 +5738,7 @@ PyTypeObject PyNs3QosWaveMacHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "QosWaveMacHelper(arg0)\nQosWaveMacHelper()",                        /* Documentation string */
     (traverseproc)PyNs3QosWaveMacHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3QosWaveMacHelper__tp_clear,             /* tp_clear */
@@ -6270,7 +6270,7 @@ PyTypeObject PyNs3VendorSpecificActionHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "VendorSpecificActionHeader(arg0)\nVendorSpecificActionHeader()",                        /* Documentation string */
     (traverseproc)PyNs3VendorSpecificActionHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3VendorSpecificActionHeader__tp_clear,             /* tp_clear */
@@ -6893,7 +6893,7 @@ PyTypeObject PyNs3VsaManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "VsaManager(arg0)\nVsaManager()",                        /* Documentation string */
     (traverseproc)PyNs3VsaManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3VsaManager__tp_clear,             /* tp_clear */
@@ -7437,7 +7437,7 @@ PyTypeObject PyNs3WaveBsmStats_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "WaveBsmStats(arg0)\nWaveBsmStats()",                        /* Documentation string */
     (traverseproc)PyNs3WaveBsmStats__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WaveBsmStats__tp_clear,             /* tp_clear */
@@ -7788,7 +7788,7 @@ PyTypeObject PyNs3Wifi80211pHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "Wifi80211pHelper(arg0)\nWifi80211pHelper()",                        /* Documentation string */
     (traverseproc)PyNs3Wifi80211pHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3Wifi80211pHelper__tp_clear,             /* tp_clear */
@@ -8325,7 +8325,7 @@ PyTypeObject PyNs3YansWavePhyHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "YansWavePhyHelper(arg0)\nYansWavePhyHelper()",                        /* Documentation string */
     (traverseproc)PyNs3YansWavePhyHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3YansWavePhyHelper__tp_clear,             /* tp_clear */
@@ -9058,7 +9058,7 @@ PyTypeObject PyNs3BsmApplication_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "BsmApplication(arg0)\nBsmApplication()",                        /* Documentation string */
     (traverseproc)PyNs3BsmApplication__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3BsmApplication__tp_clear,             /* tp_clear */
@@ -10165,7 +10165,7 @@ PyTypeObject PyNs3ChannelCoordinator_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "ChannelCoordinator(arg0)\nChannelCoordinator()",                        /* Documentation string */
     (traverseproc)PyNs3ChannelCoordinator__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ChannelCoordinator__tp_clear,             /* tp_clear */
@@ -10601,7 +10601,7 @@ PyTypeObject PyNs3ChannelManager_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "ChannelManager(arg0)\nChannelManager()",                        /* Documentation string */
     (traverseproc)PyNs3ChannelManager__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ChannelManager__tp_clear,             /* tp_clear */
@@ -11728,7 +11728,7 @@ PyTypeObject PyNs3ChannelScheduler_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "ChannelScheduler(arg0)\nChannelScheduler()",                        /* Documentation string */
     (traverseproc)PyNs3ChannelScheduler__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3ChannelScheduler__tp_clear,             /* tp_clear */
@@ -12742,7 +12742,7 @@ PyTypeObject PyNs3DefaultChannelScheduler_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "DefaultChannelScheduler(arg0)\nDefaultChannelScheduler()",                        /* Documentation string */
     (traverseproc)PyNs3DefaultChannelScheduler__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3DefaultChannelScheduler__tp_clear,             /* tp_clear */
@@ -14022,7 +14022,7 @@ PyTypeObject PyNs3WaveMacLow_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "WaveMacLow(arg0)\nWaveMacLow()",                        /* Documentation string */
     (traverseproc)PyNs3WaveMacLow__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WaveMacLow__tp_clear,             /* tp_clear */
@@ -16935,7 +16935,7 @@ PyTypeObject PyNs3WaveNetDevice_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "WaveNetDevice(arg0)\nWaveNetDevice()",                        /* Documentation string */
     (traverseproc)PyNs3WaveNetDevice__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3WaveNetDevice__tp_clear,             /* tp_clear */
@@ -20038,7 +20038,7 @@ PyTypeObject PyNs3OcbWifiMac_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
     "OcbWifiMac()",                        /* Documentation string */
     (traverseproc)PyNs3OcbWifiMac__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3OcbWifiMac__tp_clear,             /* tp_clear */

@@ -560,7 +560,7 @@ PyTypeObject PyNs3DsdvDsdvHeader_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "DsdvHeader(dst, hopcount, dstSeqNo)\nDsdvHeader(arg0)",                        /* Documentation string */
     (traverseproc)PyNs3DsdvDsdvHeader__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3DsdvDsdvHeader__tp_clear,             /* tp_clear */
@@ -1948,7 +1948,7 @@ PyTypeObject PyNs3DsdvRoutingProtocol_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "RoutingProtocol(arg0)\nRoutingProtocol()",                        /* Documentation string */
     (traverseproc)PyNs3DsdvRoutingProtocol__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3DsdvRoutingProtocol__tp_clear,             /* tp_clear */
@@ -4332,7 +4332,7 @@ PyTypeObject PyNs3DsdvHelper_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
+    Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "DsdvHelper(arg0)\nDsdvHelper()",                        /* Documentation string */
     (traverseproc)PyNs3DsdvHelper__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3DsdvHelper__tp_clear,             /* tp_clear */

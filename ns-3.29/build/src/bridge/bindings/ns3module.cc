@@ -1363,7 +1363,7 @@ PyTypeObject PyNs3BridgeChannel_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "BridgeChannel()",                        /* Documentation string */
     (traverseproc)PyNs3BridgeChannel__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3BridgeChannel__tp_clear,             /* tp_clear */
@@ -2099,7 +2099,7 @@ PyTypeObject PyNs3BridgeNetDevice_Type = {
     (getattrofunc)NULL,     /* tp_getattro */
     (setattrofunc)NULL,     /* tp_setattro */
     (PyBufferProcs*)NULL,  /* tp_as_buffer */
-    Py_TPFLAGS_BASETYPE|Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC,                      /* tp_flags */
+    Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_BASETYPE,                      /* tp_flags */
     "BridgeNetDevice()",                        /* Documentation string */
     (traverseproc)PyNs3BridgeNetDevice__tp_traverse,     /* tp_traverse */
     (inquiry)PyNs3BridgeNetDevice__tp_clear,             /* tp_clear */

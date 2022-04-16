@@ -13,6 +13,7 @@ static void
 CwndChange (uint32_t oldCwnd, uint32_t newCwnd)
 {
   std::cout << Simulator::Now ().GetSeconds () << "\t" << newCwnd << std::endl;
+  NS_LOG_INFO(Simulator::Now ().GetSeconds () << "\t" << newCwnd);
 }
 
 int 
@@ -75,7 +76,7 @@ main (int argc, char *argv[])
 	  Hint: Need to install packet sinks for both TCP and UDP traffic */
 	PacketSinkHelper packetSinkHelperTcp ("ns3::TcpSocketFactory", InetSocketAddress(Ipv4Address::GetAny(), sinkPortTcp));
 	ApplicationContainer sinkAppTcp = packetSinkHelperTcp.Install(nDst);
-	PacketSinkHelper packetSinkHelperUdp ("ns3::UdpSocketFactory", sinkAddressUdp);
+	PacketSinkHelper packetSinkHelperUdp ("ns3::UdpSocketFactory", InetSocketAddress(Ipv4Address::GetAny(), sinkPortUdp));
 	ApplicationContainer sinkAppUdp = packetSinkHelperUdp.Install(nDst);
 //==========================================================================================
 

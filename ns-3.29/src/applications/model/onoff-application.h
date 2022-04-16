@@ -110,6 +110,13 @@ public:
    * \brief Return a pointer to associated socket.
    * \return pointer to associated socket
    */
+  
+  //week6
+  // brief Set a pointer to associated socket
+  //
+  void SetSocket (Ptr<Socket> socket);
+
+
   Ptr<Socket> GetSocket (void) const;
 
  /**
