@@ -1,4 +1,4 @@
-# project ns (3.29) configured on Sat Apr 16 15:01:05 2022 by
+# project ns (3.29) configured on Fri May 13 06:15:41 2022 by
 # waf 2.0.9 (abi 20, python 30609f0 on linux)
 # using ./waf configure --build-profile=debug --enable-examples --enable-tests
 #
@@ -10,7 +10,7 @@ Setting out to
 /home/joftware/ns-allinone-3.29/ns-3.29/build
 ----------------------------------------
 Checking for 'gcc' (C compiler)
-find program=['gcc', 'cc'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='CC' -> ['/usr/bin/gcc']
+find program=['gcc', 'cc'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='CC' -> ['/usr/bin/gcc']
 ['/usr/bin/gcc', '-dM', '-E', '-']
 out: #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
@@ -360,14 +360,14 @@ out: #define __SSP_STRONG__ 3
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
+find program=['ar'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
 /usr/bin/gcc
 ----------------------------------------
 Checking for cc version
 7.5.0
 ----------------------------------------
 Checking for 'g++' (C++ compiler)
-find program=['g++', 'c++'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='CXX' -> ['/usr/bin/g++']
+find program=['g++', 'c++'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='CXX' -> ['/usr/bin/g++']
 ['/usr/bin/g++', '-dM', '-E', '-']
 out: #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
@@ -717,30 +717,30 @@ out: #define __SSP_STRONG__ 3
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
+find program=['ar'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
 /usr/bin/g++
 ------------------------------------------------------
 Checking for compilation flag -Wl,--soname=foo support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_78a80cdb35921f644d3e5090506f98c8/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_406dc5b2253150f930514bba529e4701/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wl,--soname=foo', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_78a80cdb35921f644d3e5090506f98c8/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wl,--soname=foo', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_406dc5b2253150f930514bba529e4701/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------
 Checking for compilation flag -std=c++11 support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_78a80cdb35921f644d3e5090506f98c8/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_406dc5b2253150f930514bba529e4701/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_78a80cdb35921f644d3e5090506f98c8/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_406dc5b2253150f930514bba529e4701/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------
 Checking for program 'python'
 /usr/bin/python
-find program=['python'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='PYTHON' -> ['/usr/bin/python']
+find program=['python'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='PYTHON' -> ['/usr/bin/python']
 ['/usr/bin/python', '-c', 'import imp;print(imp.get_tag())']
 out: cpython-36
 
@@ -805,7 +805,7 @@ LDVERSION = '3.6m'
 ------------------------------------------------------
 python-config
 /usr/bin/python-config
-find program=['/usr/bin/python-config', 'python3.6-config', 'python-config-3.6', 'python3.6m-config'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='PYTHON_CONFIG' -> ['/usr/bin/python-config']
+find program=['/usr/bin/python-config', 'python3.6-config', 'python-config-3.6', 'python3.6m-config'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='PYTHON_CONFIG' -> ['/usr/bin/python-config']
 ------------------------------------------------------------------
 Asking python-config for pyembed '--cflags --libs --ldflags' flags
 ['/usr/bin/python-config', '--cflags', '--libs', '--ldflags']
@@ -841,12 +841,12 @@ int main(int argc, char **argv)
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1ee42d663d022dc51cfbb275962c321c/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_53425a7f47b36c6b71000f6b2b47f386/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1ee42d663d022dc51cfbb275962c321c/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_1ee42d663d022dc51cfbb275962c321c/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_53425a7f47b36c6b71000f6b2b47f386/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_53425a7f47b36c6b71000f6b2b47f386/testbuild/testprog[0m
 
-['/usr/bin/g++', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1ee42d663d022dc51cfbb275962c321c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
+['/usr/bin/g++', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_53425a7f47b36c6b71000f6b2b47f386/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
 yes
 ------------------------------------------------------------------
 Asking python-config for pyext '--cflags --libs --ldflags' flags
@@ -883,30 +883,30 @@ int main(int argc, char **argv)
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_cb6701307765a523be0b5dfd1cc40ad9/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_3ec1b814ef56703686ac4f8cd08a9820/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fPIC', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_cb6701307765a523be0b5dfd1cc40ad9/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_cb6701307765a523be0b5dfd1cc40ad9/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fPIC', '-fno-strict-aliasing', '-g', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-g', '-fwrapv', '-O2', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3ec1b814ef56703686ac4f8cd08a9820/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_3ec1b814ef56703686ac4f8cd08a9820/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so[0m
 
-['/usr/bin/g++', '-shared', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_cb6701307765a523be0b5dfd1cc40ad9/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
+['/usr/bin/g++', '-shared', '-Xlinker', '-export-dynamic', '-Wl,-O1', '-Wl,-Bsymbolic-functions', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_3ec1b814ef56703686ac4f8cd08a9820/testbuild/testprog.cpython-36m-x86_64-linux-gnu.so', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib/python2.7/config-x86_64-linux-gnu', '-L/usr/lib', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm', '-lpython2.7', '-lpthread', '-ldl', '-lutil', '-lm']
 yes
 ------------------------------------------------------------------
 Checking for compilation flag -fvisibility=hidden support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_78a80cdb35921f644d3e5090506f98c8/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_406dc5b2253150f930514bba529e4701/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fvisibility=hidden', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_78a80cdb35921f644d3e5090506f98c8/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fvisibility=hidden', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_406dc5b2253150f930514bba529e4701/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -Wno-array-bounds support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_78a80cdb35921f644d3e5090506f98c8/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_406dc5b2253150f930514bba529e4701/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_78a80cdb35921f644d3e5090506f98c8/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_406dc5b2253150f930514bba529e4701/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for pybindgen location
@@ -934,9 +934,9 @@ int main ()
 }
 
 <==
-[1/1] Compiling [32mbuild/.conf_check_6b8b4e1de30526baef9c428474f64d36/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_60ba130936fefb6b287ce9d43df32e54/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6b8b4e1de30526baef9c428474f64d36/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_60ba130936fefb6b287ce9d43df32e54/testbuild/test.cpp.1.o']
 yes
 ------------------------------------------------------------------
 Checking for types uint64_t and unsigned long equivalence
@@ -955,9 +955,9 @@ int main ()
 }
 
 <==
-[1/1] Compiling [32mbuild/.conf_check_1e68bb677dd3c34cd2eddf45b4fa0f1f/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_c43b4fc8c1fa6834baa78bb08c8ce8d5/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1e68bb677dd3c34cd2eddf45b4fa0f1f/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_c43b4fc8c1fa6834baa78bb08c8ce8d5/testbuild/test.cpp.1.o']
 err: ../test.cpp: In function ‘int main()’:
 ../test.cpp:7:37: error: conversion from ‘std::vector<long long unsigned int>’ to non-scalar type ‘std::vector<long unsigned int>’ requested
     std::vector< uint64_t > t = std::vector< unsigned long long > ();
@@ -991,12 +991,12 @@ int main ()
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_fae5c963f6e30c3dab267897427cbd7c/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_f96307a4a02673880a134672ac140287/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_fae5c963f6e30c3dab267897427cbd7c/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_fae5c963f6e30c3dab267897427cbd7c/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python3/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python3/dist-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f96307a4a02673880a134672ac140287/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_f96307a4a02673880a134672ac140287/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_fae5c963f6e30c3dab267897427cbd7c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f96307a4a02673880a134672ac140287/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 complete
 ------------------------------------------------------------------
 Checking for python module 'pygccxml'
@@ -1021,7 +1021,7 @@ not found
 ------------------------------------------------------------------
 Checking for program 'pkg-config'
 /usr/bin/pkg-config
-find program=['pkg-config'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
+find program=['pkg-config'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
 ------------------------------------------------------------------
 Checking for 'gtk+-3.0'
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'gtk+-3.0']
@@ -1052,9 +1052,9 @@ checking for uint128_t
         }
         
 <==
-[1/2] Compiling [32mbuild/.conf_check_84628c566fca4482a8a85cdb8e1ea0df/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_358d5634194669e8c349590cd20979a9/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_84628c566fca4482a8a85cdb8e1ea0df/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_358d5634194669e8c349590cd20979a9/testbuild/test.cpp.1.o']
 err: ../test.cpp: In function ‘int main(int, char**)’:
 ../test.cpp:6:7: error: ‘uint128_t’ was not declared in this scope
   if ((uint128_t *) 0) return 0;
@@ -1101,12 +1101,12 @@ checking for __uint128_t
         }
         
 <==
-[1/2] Compiling [32mbuild/.conf_check_6e19359ce639363cc8ba85f00395a52c/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_135f42294a8e1f294cd98ef57583a318/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6e19359ce639363cc8ba85f00395a52c/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_6e19359ce639363cc8ba85f00395a52c/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_135f42294a8e1f294cd98ef57583a318/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_135f42294a8e1f294cd98ef57583a318/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6e19359ce639363cc8ba85f00395a52c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_135f42294a8e1f294cd98ef57583a318/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking high precision implementation
@@ -1122,12 +1122,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_614d62257ae7c2f54320ca895ec778f0/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_614d62257ae7c2f54320ca895ec778f0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_614d62257ae7c2f54320ca895ec778f0/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_614d62257ae7c2f54320ca895ec778f0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header inttypes.h
@@ -1140,12 +1140,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_fe239d267353d5e5411414c40a0968ca/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_fe239d267353d5e5411414c40a0968ca/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_fe239d267353d5e5411414c40a0968ca/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_fe239d267353d5e5411414c40a0968ca/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1158,9 +1158,9 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1c52db3e2de85ddde497a66fc0762991/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_5dd233c5e188ab34596f888d11a0bf35/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1c52db3e2de85ddde497a66fc0762991/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_5dd233c5e188ab34596f888d11a0bf35/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: sys/inttypes.h: No such file or directory
  #include <sys/inttypes.h>
           ^~~~~~~~~~~~~~~~
@@ -1187,12 +1187,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_6ac6db71796d7c753008ec759d6455d4/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_d367bfa3ede63c3722aa59f138bb62f0/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6ac6db71796d7c753008ec759d6455d4/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_6ac6db71796d7c753008ec759d6455d4/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_d367bfa3ede63c3722aa59f138bb62f0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_d367bfa3ede63c3722aa59f138bb62f0/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6ac6db71796d7c753008ec759d6455d4/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_d367bfa3ede63c3722aa59f138bb62f0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header sys/stat.h
@@ -1205,12 +1205,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_6659ed5a6cc93efbec4f139832a0457c/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_356b1cf1daefc5c3d02924544c3f3ef1/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6659ed5a6cc93efbec4f139832a0457c/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_6659ed5a6cc93efbec4f139832a0457c/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_356b1cf1daefc5c3d02924544c3f3ef1/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_356b1cf1daefc5c3d02924544c3f3ef1/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6659ed5a6cc93efbec4f139832a0457c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_356b1cf1daefc5c3d02924544c3f3ef1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header dirent.h
@@ -1223,12 +1223,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_8982faa33d6331e50b19ae2b5b2fa46b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_06c8196c085e76c7a257d51b0f175ec2/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8982faa33d6331e50b19ae2b5b2fa46b/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_8982faa33d6331e50b19ae2b5b2fa46b/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_06c8196c085e76c7a257d51b0f175ec2/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_06c8196c085e76c7a257d51b0f175ec2/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_8982faa33d6331e50b19ae2b5b2fa46b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_06c8196c085e76c7a257d51b0f175ec2/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header stdlib.h
@@ -1241,12 +1241,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_ea6ad50465b7d8066460ed6922fb881c/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_e96293f783eb9feb4f243dca9b566d68/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ea6ad50465b7d8066460ed6922fb881c/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_ea6ad50465b7d8066460ed6922fb881c/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e96293f783eb9feb4f243dca9b566d68/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_e96293f783eb9feb4f243dca9b566d68/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_ea6ad50465b7d8066460ed6922fb881c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e96293f783eb9feb4f243dca9b566d68/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header signal.h
@@ -1259,12 +1259,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_6c8ac2383a36639ec542aef87be34212/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_da39dd7d08ae937c6ab268b611c6b98a/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c8ac2383a36639ec542aef87be34212/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_6c8ac2383a36639ec542aef87be34212/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_da39dd7d08ae937c6ab268b611c6b98a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_da39dd7d08ae937c6ab268b611c6b98a/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c8ac2383a36639ec542aef87be34212/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_da39dd7d08ae937c6ab268b611c6b98a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header pthread.h
@@ -1279,12 +1279,12 @@ int main ()
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_f172420d86f30e1586898968927a900c/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_d022f0f9622a48e48e25d435dc2f2301/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f172420d86f30e1586898968927a900c/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_f172420d86f30e1586898968927a900c/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_d022f0f9622a48e48e25d435dc2f2301/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_d022f0f9622a48e48e25d435dc2f2301/testbuild/testprog[0m
 
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_f172420d86f30e1586898968927a900c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_d022f0f9622a48e48e25d435dc2f2301/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header stdint.h
@@ -1297,12 +1297,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_614d62257ae7c2f54320ca895ec778f0/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_614d62257ae7c2f54320ca895ec778f0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_614d62257ae7c2f54320ca895ec778f0/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_75f2d090d4bd25f13cafcef3e236e7a5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_614d62257ae7c2f54320ca895ec778f0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header inttypes.h
@@ -1315,12 +1315,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_fe239d267353d5e5411414c40a0968ca/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_fe239d267353d5e5411414c40a0968ca/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_fe239d267353d5e5411414c40a0968ca/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_fe239d267353d5e5411414c40a0968ca/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_825f3d9e46b42a95ba44e14fa52573e7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -1333,9 +1333,9 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1c52db3e2de85ddde497a66fc0762991/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_5dd233c5e188ab34596f888d11a0bf35/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1c52db3e2de85ddde497a66fc0762991/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_5dd233c5e188ab34596f888d11a0bf35/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: sys/inttypes.h: No such file or directory
  #include <sys/inttypes.h>
           ^~~~~~~~~~~~~~~~
@@ -1361,12 +1361,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_94c9473e3618b5c234c7ca8417e676fb/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_22138250aa22fffb749722573c7e7847/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_94c9473e3618b5c234c7ca8417e676fb/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_94c9473e3618b5c234c7ca8417e676fb/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-pthread', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_22138250aa22fffb749722573c7e7847/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_22138250aa22fffb749722573c7e7847/testbuild/testprog[0m
 
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_94c9473e3618b5c234c7ca8417e676fb/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_22138250aa22fffb749722573c7e7847/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
 yes
 ------------------------------------------------------------------
 Checking for header sys/ioctl.h
@@ -1379,12 +1379,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1fca914e3045078b6b9d088dfd019503/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_b5d1d6c437ef3b42b1e88e8a36f56425/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1fca914e3045078b6b9d088dfd019503/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_1fca914e3045078b6b9d088dfd019503/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_b5d1d6c437ef3b42b1e88e8a36f56425/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_b5d1d6c437ef3b42b1e88e8a36f56425/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_1fca914e3045078b6b9d088dfd019503/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_b5d1d6c437ef3b42b1e88e8a36f56425/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header net/if.h
@@ -1397,12 +1397,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_2547072a17d96e2003080e8f03c620ca/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_7ab9050ef28ff690e6cedae92e990921/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_2547072a17d96e2003080e8f03c620ca/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_2547072a17d96e2003080e8f03c620ca/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_7ab9050ef28ff690e6cedae92e990921/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_7ab9050ef28ff690e6cedae92e990921/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_2547072a17d96e2003080e8f03c620ca/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_7ab9050ef28ff690e6cedae92e990921/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header net/ethernet.h
@@ -1415,12 +1415,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_6373690b6a820606d0686a0c2fb56158/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_a74a5c3d0c955690017cbc634a13a9ef/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6373690b6a820606d0686a0c2fb56158/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_6373690b6a820606d0686a0c2fb56158/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a74a5c3d0c955690017cbc634a13a9ef/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_a74a5c3d0c955690017cbc634a13a9ef/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6373690b6a820606d0686a0c2fb56158/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_a74a5c3d0c955690017cbc634a13a9ef/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header linux/if_tun.h
@@ -1433,12 +1433,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_6c0605102709c3b849f6fd049c15b3f1/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_518972220ddc87c99214645ab481ff87/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c0605102709c3b849f6fd049c15b3f1/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_6c0605102709c3b849f6fd049c15b3f1/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_518972220ddc87c99214645ab481ff87/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_518972220ddc87c99214645ab481ff87/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c0605102709c3b849f6fd049c15b3f1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_518972220ddc87c99214645ab481ff87/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for header netpacket/packet.h
@@ -1451,12 +1451,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_e73b07919f36d9a4f83ea69e855af171/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_06c54d30d43fc5f1cd8bec8ef9621395/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e73b07919f36d9a4f83ea69e855af171/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_e73b07919f36d9a4f83ea69e855af171/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_06c54d30d43fc5f1cd8bec8ef9621395/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_06c54d30d43fc5f1cd8bec8ef9621395/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_e73b07919f36d9a4f83ea69e855af171/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_06c54d30d43fc5f1cd8bec8ef9621395/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for NSC location
@@ -1482,12 +1482,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_6c0605102709c3b849f6fd049c15b3f1/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_518972220ddc87c99214645ab481ff87/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c0605102709c3b849f6fd049c15b3f1/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_6c0605102709c3b849f6fd049c15b3f1/testbuild/testprog[0m
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_518972220ddc87c99214645ab481ff87/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_518972220ddc87c99214645ab481ff87/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_6c0605102709c3b849f6fd049c15b3f1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_518972220ddc87c99214645ab481ff87/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 ------------------------------------------------------------------
 Checking for python module 'gi'
@@ -1590,11 +1590,11 @@ from /home/joftware/ns-allinone-3.29/ns-3.29/src/visualizer: Could not find the 
 ------------------------------------------------------------------
 Checking for program 'sudo'
 /usr/bin/sudo
-find program=['sudo'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='SUDO' -> ['/usr/bin/sudo']
+find program=['sudo'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='SUDO' -> ['/usr/bin/sudo']
 ------------------------------------------------------------------
 Checking for program 'valgrind'
 not found
-find program=['valgrind'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='VALGRIND' -> None
+find program=['valgrind'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='VALGRIND' -> None
 from /home/joftware/ns-allinone-3.29/ns-3.29: Could not find the program ['valgrind']
 ------------------------------------------------------------------
 Checking for 'gsl'
@@ -1609,46 +1609,46 @@ from /home/joftware/ns-allinone-3.29/ns-3.29: The configuration failed
 ------------------------------------------------------------------
 python-config
 not found
-find program=['libgcrypt-config'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='LIBGCRYPT_CONFIG' -> None
+find program=['libgcrypt-config'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='LIBGCRYPT_CONFIG' -> None
 from /home/joftware/ns-allinone-3.29/ns-3.29: Could not find the program ['libgcrypt-config']
 ------------------------------------------------------------------
 Checking for compilation flag -fstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_78a80cdb35921f644d3e5090506f98c8/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_406dc5b2253150f930514bba529e4701/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_78a80cdb35921f644d3e5090506f98c8/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_406dc5b2253150f930514bba529e4701/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -fstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_b5f039243110d1ddfd2dce381917d149/test.c[0m
+[1/1] Compiling [32mbuild/.conf_check_86e4d911f33ad92adb101699fc5113c4/test.c[0m
 
-['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_b5f039243110d1ddfd2dce381917d149/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_86e4d911f33ad92adb101699fc5113c4/testbuild/test.c.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -Wstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_78a80cdb35921f644d3e5090506f98c8/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_406dc5b2253150f930514bba529e4701/test.cpp[0m
 
-['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_78a80cdb35921f644d3e5090506f98c8/testbuild/test.cpp.1.o']
+['/usr/bin/g++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-std=c++11', '-fstrict-aliasing', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.cpp', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_406dc5b2253150f930514bba529e4701/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for compilation flag -Wstrict-aliasing support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_b5f039243110d1ddfd2dce381917d149/test.c[0m
+[1/1] Compiling [32mbuild/.conf_check_86e4d911f33ad92adb101699fc5113c4/test.c[0m
 
-['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_b5f039243110d1ddfd2dce381917d149/testbuild/test.c.1.o']
+['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '-DHAVE_PACKET_H=1', '-DHAVE_IF_TUN_H=1', '../test.c', '-c', '-o/home/joftware/ns-allinone-3.29/ns-3.29/build/.conf_check_86e4d911f33ad92adb101699fc5113c4/testbuild/test.c.1.o']
 ok
 ------------------------------------------------------------------
 Checking for program 'doxygen'
 not found
-find program=['doxygen'] paths=['/home/joftware/.vscode-server/bin/8dfae7a5cd50421d10cd99cb873990460525a898/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='DOXYGEN' -> None
+find program=['doxygen'] paths=['/home/joftware/.cache/cloud-code/installer/google-cloud-sdk/bin', '/home/joftware/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli', '/home/joftware/.local/bin', '/home/joftware/.nvm/versions/node/v14.17.5/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/usr/lib/wsl/lib', '/mnt/c/app/oracle/product/12.1.0/dbhome_1/bin', '/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"', '/mnt/c/Program Files/Microsoft MPI/Bin/', '/mnt/c/Windows/system32', '/mnt/c/Windows', '/mnt/c/Windows/System32/Wbem', '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/', '/mnt/c/Windows/System32/OpenSSH/', '/mnt/c/Program Files/dotnet/', '/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/', '/mnt/c/Program Files (x86)/Java/jdk1.8.0_201/bin', '/mnt/c/Program Files/Git/cmd', '/mnt/c/Program Files/nodejs/', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/ProgramData/chocolatey/bin', '/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/', '/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR', '/mnt/c/WINDOWS/system32', '/mnt/c/WINDOWS', '/mnt/c/WINDOWS/System32/Wbem', '/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/', '/mnt/c/WINDOWS/System32/OpenSSH/', '/mnt/c/Program Files (x86)/dotnet/', '/mnt/c/Program Files/Docker/Docker/resources/bin', '/mnt/c/ProgramData/DockerDesktop/version-bin', '/mnt/c/Program Files/Cloudflare/Cloudflare WARP/', '/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/mnt/c/Program Files/Java/jdk1.8.0_201/bin', '/mnt/c/Users/user/AppData/Local/GitHubDesktop/bin', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32/Scripts', '/mnt/c/Users/user/AppData/Local/Programs/Python/Python37-32', '/mnt/c/app/oracle/product/12.1.0/db_1/bin', '/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin', '/mnt/c/Users/user/AppData/Roaming/npm', '/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.1/bin', '/mnt/c/Program Files/JetBrains/CLion 2020.3.1/bin', '/mnt/c/Users/user/.dotnet/tools', '/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps', '/snap/bin'] var='DOXYGEN' -> None
 from /home/joftware/ns-allinone-3.29/ns-3.29: Could not find the program ['doxygen']
